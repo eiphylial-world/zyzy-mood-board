@@ -1,0 +1,51 @@
+body {
+  background: linear-gradient(to bottom, #fff8f0, #f8e8e8);
+  font-family: "Georgia", serif;
+  text-align: center;
+  color: #5a3e36;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 45px;
+  color: #b08d57;
+  letter-spacing: 2px;
+}
+
+.card {
+  background: rgba(255,255,255,0.8);
+  border-radius: 25px;
+  padding: 30px;
+  margin: 30px auto;
+  max-width: 450px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  animation: float 3s ease-in-out infinite;
+}
+
+button {
+  background: #b08d57;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+  }
